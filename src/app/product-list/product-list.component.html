@@ -1,40 +1,48 @@
 <h2>Products</h2>
 
-<div *ngFor="let product of products">
-<h3>
-<a [title]="product.name + ' details'">
-{{ product.name }}
-</a>
-</h3>
-<p *ngIf="product.image">
-  <img class="imgimg" [src]="product.image">
-</p>
-<p *ngIf="product.description">
-Description: {{ product.description }}
-</p>
-<p *ngIf="product.rating">
-rating: {{ product.rating }}
-</p>
-<!--
-  <button type="button" (click)="share()">
-  Share
-  </button>
--->
 <span>
-<a [href] = "'https://telegram.me/share/url?url=' + product.link " target="_blank">
-<button type="button" (click)="share()">
-  telegram share
-</button>
-</a>
-  <a [href] = "'https://web.whatsapp.com/send?text=' + product.link">
-    <button type="button">whatsapp share</button>
-    </a>
+  <button type="button" (click)="choosecatphone()">phones</button>
+  <button type="button" (click)="choosecatbottle()">bottles</button>
+  <button type="button" (click)="choosecatwatch()">watches</button>
+  <button type="button" (click)="choosecatcamera()">camera</button>
+  <button type="button" (click)="choosecatpaper()">paper</button>
 </span>
-<app-product-alerts
-  [product]="product"
-  (notify)="onNotify()">
-</app-product-alerts>
+
+<div
+  *ngFor="let product of products"
+  ng-hide="product.category != choosencat"
+  class="ng-hide"
+>
+  <h3>
+    <a [title]="product.name + ' details'">
+      {{ product.name }}
+    </a>
+  </h3>
+  <p *ngIf="product.image">
+    <img class="imgimg" [src]="product.image" />
+  </p>
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
+  <p *ngIf="product.rating">rating: {{ product.rating }}</p>
+
+  <span>
+    <a
+      [href]="'https://telegram.me/share/url?url=' + product.link"
+      target="_blank"
+    >
+      <button type="button" (click)="share()">telegram share</button>
+    </a>
+    <a [href]="'https://web.whatsapp.com/send?text=' + product.link">
+      <button type="button">whatsapp share</button>
+    </a>
+  </span>
+  <span>
+    <app-product-alerts [product]="product" (notify)="onNotify()">
+    </app-product-alerts>
+    <app-product-alerts [product]="product" (notify)="onNotify()">
+    </app-product-alerts>
+  </span>
 </div>
+
 <!-- 
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

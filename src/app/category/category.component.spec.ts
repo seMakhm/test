@@ -5,6 +5,7 @@ import { CategoryComponent } from './category.component';
 describe('CategoryComponent', () => {
   let component: CategoryComponent;
   let fixture: ComponentFixture<CategoryComponent>;
+  var choosencat: null;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({

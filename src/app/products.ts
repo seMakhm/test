@@ -15,6 +15,7 @@ export const products = [
     description: 'A large phone with one of the best screens',
     category: 'phone',
     rating: 4,
+    likes: 1,
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ export const products = [
     description: 'A great phone with one of the best cameras',
     category: 'phone',
     rating: 3,
+    likes: 1,
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ export const products = [
     description: 'desc for phone',
     category: 'phone',
     rating: 5,
+    likes: 1,
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ export const products = [
     description: 'desc for phone',
     category: 'phone',
     rating: 5,
+    likes: 1,
   },
   {
     id: 5,
@@ -56,6 +60,7 @@ export const products = [
     description: 'desc for phone',
     category: 'phone',
     rating: 3,
+    likes: 1,
   },
   {
     id: 6,
@@ -67,6 +72,7 @@ export const products = [
     description: 'desc for phone',
     category: 'phone',
     rating: 4,
+    likes: 1,
   },
   {
     id: 7,
@@ -78,6 +84,7 @@ export const products = [
     description: 'desc for phone',
     category: 'phone',
     rating: 3,
+    likes: 1,
   },
   {
     id: 8,
@@ -88,6 +95,7 @@ export const products = [
     description: 'desc for phone',
     category: 'phone',
     rating: 5,
+    likes: 1,
   },
   {
     id: 9,
@@ -98,6 +106,7 @@ export const products = [
     description: 'desc for phone',
     category: 'phone',
     rating: 1,
+    likes: 1,
   },
   {
     id: 10,
@@ -108,6 +117,7 @@ export const products = [
     description: 'desc for phone',
     category: 'phone',
     rating: 3,
+    likes: 1,
   },
   {
     id: 11,
@@ -119,6 +129,7 @@ export const products = [
     description: 'desc for bottle',
     category: 'bottle',
     rating: 5,
+    likes: 1,
   },
   {
     id: 12,
@@ -129,6 +140,7 @@ export const products = [
     description: 'desc for bottle',
     category: 'bottle',
     rating: 5,
+    likes: 1,
   },
   {
     id: 13,
@@ -139,6 +151,7 @@ export const products = [
     description: 'desc for bottle',
     category: 'bottle',
     rating: 3,
+    likes: 1,
   },
   {
     id: 14,
@@ -149,6 +162,7 @@ export const products = [
     description: 'desc for watch',
     category: 'watch',
     rating: 3,
+    likes: 1,
   },
   {
     id: 15,
@@ -159,6 +173,7 @@ export const products = [
     description: 'desc for watch',
     category: 'watch',
     rating: 3,
+    likes: 1,
   },
   {
     id: 16,
@@ -169,6 +184,7 @@ export const products = [
     description: 'desc for watch',
     category: 'watch',
     rating: 3,
+    likes: 1,
   },
   {
     id: 17,
@@ -179,6 +195,7 @@ export const products = [
     description: 'desc for camera',
     category: 'camera',
     rating: 3,
+    likes: 1,
   },
   {
     id: 18,
@@ -189,6 +206,7 @@ export const products = [
     description: 'desc for camera',
     category: 'camera',
     rating: 3,
+    likes: 1,
   },
   {
     id: 19,
@@ -199,6 +217,7 @@ export const products = [
     description: 'desc for camera',
     category: 'camera',
     rating: 3,
+    likes: 1,
   },
   {
     id: 20,
@@ -209,6 +228,7 @@ export const products = [
     description: 'desc for paper',
     category: 'paper',
     rating: 5,
+    likes: 1,
   },
   {
     id: 21,
@@ -220,6 +240,7 @@ export const products = [
     description: 'desc for paper',
     category: 'paper',
     rating: 5,
+    likes: 1,
   },
   {
     id: 22,
@@ -230,6 +251,7 @@ export const products = [
     description: 'desc for paper',
     category: 'paper',
     rating: 5,
+    likes: 1,
   },
 ];
 

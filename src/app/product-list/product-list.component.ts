@@ -16,6 +16,29 @@ export class ProductListComponent {
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
+  choosecatphone() {
+    var choosencat = 'phone';
+    window.alert(choosencat);
+  }
+  choosecatbottle() {
+    var choosencat = 'bottle';
+    window.alert(choosencat);
+  }
+  choosecatwatch() {
+    var choosencat = 'watch';
+    window.alert(choosencat);
+  }
+  choosecatcamera() {
+    var choosencat = 'camera';
+    window.alert(choosencat);
+  }
+  choosecatpaper() {
+    var choosencat = 'paper';
+    window.alert(choosencat);
+  }
+  like(){
+    
+  }
 }
 
 /*
